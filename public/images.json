@@ -1,0 +1,48 @@
+[
+  {
+    "category": "figures",
+    "images": [
+      "figure_1.jpg",
+      "figure_2.jpg",
+      "figure_3.jpg",
+      "figure_4.jpg",
+      "figure_5.jpg",
+      "figure_6.jpg",
+      "figure_7.jpg",
+      "figure_8.jpg",
+      "figure_9.jpg",
+      "figure_10.jpg",
+      "figure_11.jpg",
+      "figure_12.jpg",
+      "figure_13.jpg",
+      "figure_14.jpg",
+      "figure_15.jpg",
+      "figure_16.jpg",
+      "figure_17.jpg",
+      "figure_18.jpg"
+    ]
+  },
+  {
+    "category": "animals",
+    "images": [
+      "donkey_animal.jpg",
+      "green parrot.jpg",
+      "owl_bird_animal.jpg",
+      "photo-12.jpg",
+      "photo-15.jpg",
+      "photo-16.jpg",
+      "photo-bird.jpg",
+      "photo-dog.jpg",
+      "photo-wolf.jpg",
+      "leopard_animal.jpg",
+      "red_fox.jpg",
+      "rhino.jpg",
+      "sleeping_lion.jpg",
+      "two_giraffes.jpg",
+      "zoo_san_diego.jpg",
+      "Zubr.jpg",
+      "tigers-face.jpg",
+      "photo-17.jpg"
+    ]
+  }
+]

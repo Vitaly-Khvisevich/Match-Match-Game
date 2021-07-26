@@ -1,0 +1,23 @@
+.stap_description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 0.5%;
+  }
+
+
+  .select_cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+  }
+  .select_choise{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 163px;
+  }

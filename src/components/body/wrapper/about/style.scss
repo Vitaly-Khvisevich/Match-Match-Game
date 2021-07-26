@@ -1,0 +1,53 @@
+.about_title,
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #000000de;
+  mix-blend-mode: normal;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 13px 10px;
+}
+.stap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.left,
+.right {
+  width: 47%;
+  background-color: white;
+  display: flex;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+}
+.number {
+  margin-right: 1%;
+  width: 20%;
+  height: 54px;
+}
+
+.stap_description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 0.5%;
+}

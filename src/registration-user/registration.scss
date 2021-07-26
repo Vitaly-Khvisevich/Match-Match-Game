@@ -1,0 +1,94 @@
+.registration-cont {
+  width: 480px;
+  height: 640px;
+  position: fixed;
+  z-index: 100;
+  top: calc(50vh - 320px);
+  left: calc(50vw - 240px);
+  background-color: white;
+}
+.victory-cont{
+  background-color: #2196F3;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+}
+.victory-title{
+  margin-top: 0;
+  font-size: 31px;
+  color: aliceblue;
+}
+.scope-cont,
+.ImgCont{
+  display: flex;
+  justify-content: center;
+}
+.questions-cont{
+  margin-left: 11px;
+  margin-top: 0;
+}
+.questions{
+  margin-bottom: 0;
+}
+p{
+  margin-top: 0;
+}
+.result-title,
+.result{
+  font-size: 30px;
+}
+.input-name,
+.input-surname,
+.input-email,
+.input-photo{
+  margin-bottom: 18px;
+  width: 66%;
+}
+.form-cont{
+  padding-left: 10px;
+}
+.input-name{
+  margin-left: 32px;
+}
+.input-surname{
+  margin-left: 9px;
+}
+.input-email{
+  margin-left: 32px;
+}
+.input-photo{
+  margin-left: 34px;
+}
+.button-victory{
+  margin-left: 60%;
+}
+.cansel-victory{
+  margin-left: 4%;
+}
+.form-active{
+  margin-left: 2%;
+}
+.input-invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+input:focus:invalid {
+  outline: none;
+}
+/* Это стиль для сообщений об ошибке */
+.error {
+  width  : 100%;
+  padding: 0;
+  margin-left: 19%;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}

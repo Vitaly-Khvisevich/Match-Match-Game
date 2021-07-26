@@ -1,0 +1,77 @@
+.card-container {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 35rem;
+  cursor: pointer;
+
+  &:hover > .card{
+    transform: translateZ(2rem);
+    box-shadow: 0 5rem 1rem rdba(0,0,0,0.5) ;
+  }
+  &.flipped > .card{
+    transform: rotateY(180deg) translateX(-100%);
+    transform-origin: left;
+  }
+}
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: right;
+  transition: all .5s;
+  border-radius: .5rem;
+  box-shadow: 0 .1rem .25rem black;
+
+  &__front,
+  &__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: inherit;
+    background-size: cover;
+    background-position: center;
+  }
+  &__front {
+    background-color: lightcoral;
+  }
+  &__back {
+    background-color: gray;
+    background-image: url('/src/assets/Property.jpg');
+    transform: rotateY(180deg);
+  }
+}
+.four_by_four{
+  width: 8rem;
+  height: 8rem;
+}
+
+.six_by_six{
+width: 6rem;
+height: 6rem;
+}
+.card_indicator{
+  width: 100%;
+
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  opacity: 0.5;
+  text-align: end;
+}
+.red_indicator{
+  background-color: red;
+}
+.green_indicator{
+  background-color: green;
+}
+.not_exist{
+  display: none;
+}
+.true_ansver,
+.false_ansver{
+  width: 19%;
+}

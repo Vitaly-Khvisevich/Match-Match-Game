@@ -1,0 +1,61 @@
+.bestuser_cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(226, 220, 220);
+  margin: 1% 4%;
+}
+.user_scope{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.scope_title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.scope{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #2196F3;
+}
+.user_cont{
+  display: flex;
+  justify-content: center;
+}
+.user_info{
+  padding-left: 10px;
+}
+.user_name{
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+.email{
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: #333333;
+}
+.best_user_photo{
+  width: 41px;
+}
